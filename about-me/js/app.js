@@ -53,3 +53,11 @@ for (let i = 0; i < arregloTotal.length; i++) {
   console.log(arregloTotal[i][1]);
   const respuesta = prompt(arregloTotal[i][1]);
 }
+
+const people = [
+  ["pete", 32, "librarian", null],
+  ["Smith", 40, "accountant", "fishing:hiking:rock_climbing"],
+  ["bill", null, "artist", null],
+];
+
+people[1];
