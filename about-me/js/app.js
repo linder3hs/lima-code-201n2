@@ -51,7 +51,7 @@ const arregloTotal = [
 console.log("USANDO FOR");
 for (let i = 0; i < arregloTotal.length; i++) {
   console.log(arregloTotal[i][1]);
-  const respuesta = prompt(arregloTotal[i][1]);
+  // const respuesta = prompt(arregloTotal[i][1]);
 }
 
 const people = [

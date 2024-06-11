@@ -46,3 +46,44 @@ li {
   padding: 10px;
   border-radius: 22px;
 }
+
+/* # es para id */
+/* . es para clases */
+
+.experience-container {
+  margin-top: 20px;
+}
+
+.work-container {
+  display: flex;
+  /* centra los elementos verticalmente */
+  /* ojo esta propiedad solo existe si previamente se ha usado
+  display:flex */
+  align-items: center;
+  /* si quier tener un espacio entre elementos podemos usar gap  */
+  gap: 20px;
+}
+
+.work-title {
+  font-weight: bold;
+}
+
+.work-company {
+  font-weight: 400;
+}
+
+.work-date {
+  font-size: 13px;
+  color: gray;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section > p {
+  width: 120px;
+  height: 120px;
+  border: red solid;
+}
